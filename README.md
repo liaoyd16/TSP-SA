@@ -1,10 +1,16 @@
-# TSP
-Program, written in C++, which solves the Travelling Salesman Problem (aka TSP).
+TSP-SA
+--------
+TSP-SA is a program, written in C++, which (tries to) solve the Travelling Salesman Problem, aka TSP.
 
-TSP is regarded as 'The Holy Grail of Computer Science'. The problem consists of a certain 
-number of cities and the task is the find the shortest Hamiltonian Cycle, connecting all the cities.
+TSP is regarded as 'The Holy Grail of Computer Science'. The problem consists of a certain number of cities and the task is the find the shortest Hamiltonian Cycle, connecting all the cities.
 
-The algorithm used is Simulated Annealiing (aka SA). SA is a randomized algorithm and hence may not give the same output
-for the same input. The program is not guaranteed to produce the optimal solution.
+The algorithm used is Simulated Annealiing, aka SA. SA is a randomized algorithm and hence may not give the same output for the same input. The program is not guaranteed to produce the optimal solution. This is an anytime algorithm and hence it would find better and better solutions the more time it keeps running.
 
-The program works for an input of <500 cities.
+Executing the program
+---------------------
+The program has been tested succcesfully for an input of at most 500 cities. The user may terminate the algorithm any time he/she desires.
+
+To execute TSP-SA, type <executable-name> < <sample-input-file>
+eg: ./tsp-sa < reuc_250
+
+The input files have been created from TSPLIB (http://comopt.ifi.uni-heidelberg.de/software/TSPLIB95/).

@@ -172,8 +172,8 @@ public:
 
  void TSP::retraceMinPath()
  {
-//  printf("Time taken: %.2fs\n", (double)(clock() - tStart)/CLOCKS_PER_SEC);
-//  cout<<"The shortest cost obtained so far is "<<getCost(min_path)<<endl;
+  printf("Time taken: %.2fs\n", (double)(clock() - tStart)/CLOCKS_PER_SEC);
+  cout<<"The shortest cost obtained so far is "<<getCost(min_path)<<endl;
   for(int i=0;i<n;i++)
    cout<<min_path[i]+1<<" ";cout<<endl;
  }
