@@ -10,7 +10,7 @@ Executing the program
 --------------------------------
 The program has been tested successfully for an input of at most 500 cities. The user may terminate the algorithm any time he/she desires.
 
-To execute TSP-SA, type 'executable-name < sample-input-file'.
+To execute TSP-SA, type 'executable-name < input-file-name'.
 For example, './tsp-sa < reuc_250'.
 
-The input files have been created from TSPLIB (http://comopt.ifi.uni-heidelberg.de/software/TSPLIB95/).
+Some sample input files are available in the folder 'Sample-Input-Files'. The input files have been created from TSPLIB (http://comopt.ifi.uni-heidelberg.de/software/TSPLIB95/).
