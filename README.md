@@ -17,4 +17,4 @@ For example, './tsp-sa < reuc_250'.
 
 Some sample input files are available in the folder 'sample-input-files'. The input files have been created from TSPLIB (http://comopt.ifi.uni-heidelberg.de/software/TSPLIB95/).
 
-This was developed as part of my assignment in course CS6380 - Artificial Intelligence, IIT Madras.
+This was developed as part of my assignment in course CS6380 - Artificial Intelligence, IIT Madras under the guidance of Prof. Deepak Khemani.
