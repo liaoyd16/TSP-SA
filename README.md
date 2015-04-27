@@ -10,7 +10,11 @@ Executing the program
 --------------------------------
 The program has been tested successfully for an input of at most 500 cities. The user may terminate the algorithm any time he/she desires.
 
-To execute TSP-SA, type 'executable-name < input-file-name'.
+To generate the executable, type 'make' at the terminal. An executable 'tsp-sa' gets created.
+
+To run the executable, type 'executable-name < input-file-name'.
 For example, './tsp-sa < reuc_250'.
 
-Some sample input files are available in the folder 'Sample-Input-Files'. The input files have been created from TSPLIB (http://comopt.ifi.uni-heidelberg.de/software/TSPLIB95/).
+Some sample input files are available in the folder 'sample-input-files'. The input files have been created from TSPLIB (http://comopt.ifi.uni-heidelberg.de/software/TSPLIB95/).
+
+This was developed as part of my assignment in course CS6380 - Artificial Intelligence, IIT Madras.
